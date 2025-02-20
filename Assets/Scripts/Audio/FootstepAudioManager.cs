@@ -12,6 +12,7 @@ namespace Audio
             public string surfaceType;
             public AudioClip[] footstepSounds;
             [Range(0f, 1f)] public float baseVolume = 1f;
+            [Range(0f, 0.2f)] public float pitchModifer = 0.05f;
         }
 
         [System.Serializable]
@@ -74,7 +75,8 @@ namespace Audio
             if (soundClip != null)
             {
                 audioSource.volume = profile.baseVolume;
-                audioSource.pitch = 1f;
+                //audioSource.pitch = 1f;
+                audioSource.pitch = Random.Range(1 - profile.pitchModifer, 1 + profile.pitchModifer);
                 audioSource.PlayOneShot(soundClip);
             }
         }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using Audio;
+using UnityEngine.Profiling;
 
 [CustomEditor(typeof(FootstepAudioManager))]
 public class FootstepAudioManagerEditor : Editor
@@ -60,6 +61,7 @@ public class FootstepAudioManagerEditor : Editor
             SerializedProperty surfaceType = element.FindPropertyRelative("surfaceType");
             SerializedProperty footstepSounds = element.FindPropertyRelative("footstepSounds");
             SerializedProperty baseVolume = element.FindPropertyRelative("baseVolume");
+            SerializedProperty pitchModifer = element.FindPropertyRelative("pitchModifer");
 
             string label = string.IsNullOrEmpty(surfaceType.stringValue) ? $"Surface {i}" : surfaceType.stringValue;
             
@@ -71,16 +73,20 @@ public class FootstepAudioManagerEditor : Editor
                 EditorGUI.indentLevel++;
                 
                 EditorGUILayout.PropertyField(surfaceType, new GUIContent("Surface Type"));
-                
-                // Just draw the footstep sounds elements
+
+                EditorGUILayout.PropertyField(footstepSounds, new GUIContent("Sounds"));
+
+                /*// Just draw the footstep sounds elements
                 for (int j = 0; j < footstepSounds.arraySize; j++)
                 {
                     SerializedProperty soundElement = footstepSounds.GetArrayElementAtIndex(j);
                     EditorGUILayout.PropertyField(soundElement, new GUIContent($"Sound {j + 1}"));
-                }
+                }*/
 
                 EditorGUILayout.PropertyField(baseVolume);
-                
+
+                EditorGUILayout.PropertyField(pitchModifer);
+
                 EditorGUI.indentLevel--;
             }
             

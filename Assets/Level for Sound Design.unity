@@ -34263,7 +34263,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -76918,7 +76918,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -171047,53 +171047,98 @@ MonoBehaviour:
   surfaceProfiles:
   - surfaceType: wood
     footstepSounds:
-    - {fileID: 8300000, guid: 936d832d8a2e3f84da49e3319f760f56, type: 3}
-    - {fileID: 8300000, guid: fab56ff9c1b60aa44b29e76a01f7048c, type: 3}
-    - {fileID: 8300000, guid: 2b4e864213ba21e48805e9123608f6d7, type: 3}
-    - {fileID: 8300000, guid: e6bc54bf9d9efcf46b97cdaf0d21ed96, type: 3}
-    - {fileID: 8300000, guid: d98e7368640b55745ac01700475acddc, type: 3}
+    - {fileID: 8300000, guid: 324bb276b53c10e4facade28b1fbd6e9, type: 3}
+    - {fileID: 8300000, guid: 04261f8987d497043bd4bff880362466, type: 3}
+    - {fileID: 8300000, guid: fd631003ec320a84caa69e50dcf766f0, type: 3}
+    - {fileID: 8300000, guid: fd75637325fda5f46b456e6790063f32, type: 3}
+    - {fileID: 8300000, guid: 4465a5ef34387a945afc9a7138434d9b, type: 3}
+    - {fileID: 8300000, guid: 9d814fbb771481c4cb0abc4d75f95216, type: 3}
+    - {fileID: 8300000, guid: d745543931d728e46848f1325e0cdf5d, type: 3}
+    - {fileID: 8300000, guid: b6d2aa435f8f2074aaa23a5fb776024b, type: 3}
+    - {fileID: 8300000, guid: c15c8c769bae3dd44911d979cd18b91c, type: 3}
+    - {fileID: 8300000, guid: 491ac468e6cebb74987c7eaf7470361a, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: grass
     footstepSounds:
-    - {fileID: 8300000, guid: 243bdb0c6d3bc9342a690195491709f8, type: 3}
-    - {fileID: 8300000, guid: d2e8493d03792c8429499e99ee36b811, type: 3}
-    - {fileID: 8300000, guid: b1da7bd88e4c4a44782b251cc90d987f, type: 3}
+    - {fileID: 8300000, guid: 336f9020bfc22624c830afe263f40047, type: 3}
+    - {fileID: 8300000, guid: d94080d8cc2419149ab1d064421c36f2, type: 3}
+    - {fileID: 8300000, guid: 5e07554fe5bc78841beb606834191cc3, type: 3}
+    - {fileID: 8300000, guid: 660a3900f9cde1c468743934e172b4f5, type: 3}
+    - {fileID: 8300000, guid: a7e028543e30ea949a435e3e4af4851c, type: 3}
+    - {fileID: 8300000, guid: cb9bb57f61e9745449d63edefed3d1ed, type: 3}
+    - {fileID: 8300000, guid: 3adcd181565c67344b17907ecea5845e, type: 3}
+    - {fileID: 8300000, guid: ffef9be67409f1048b45e04157eb6192, type: 3}
+    - {fileID: 8300000, guid: 779c8bed755b31c418c98f46d1132927, type: 3}
+    - {fileID: 8300000, guid: 1102afc9874bd284a8b32ff8201dc59e, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: sand
     footstepSounds:
-    - {fileID: 8300000, guid: fc681aba1f7682c44939e8737b7b2680, type: 3}
-    - {fileID: 8300000, guid: 64f359bf42a5b04489dbbec3dbea34af, type: 3}
-    - {fileID: 8300000, guid: f1c2436dbadd93346ba5d3af32c13565, type: 3}
-    - {fileID: 8300000, guid: 57a0e2b255f5a954497edfc3c2b16bb0, type: 3}
+    - {fileID: 8300000, guid: e3bc70d756be79e48af522bedda8b7e2, type: 3}
+    - {fileID: 8300000, guid: 813d6cdd73c4157449c81f1f2eb27104, type: 3}
+    - {fileID: 8300000, guid: 27e4504d296944a4e9931293de65a930, type: 3}
+    - {fileID: 8300000, guid: 552cbd8d46220f84baf324b893b9b365, type: 3}
+    - {fileID: 8300000, guid: 89d4e935ff922eb439876f3ee8cb6ccd, type: 3}
+    - {fileID: 8300000, guid: 5888562e385c08642b6add7a64b38048, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: rock
     footstepSounds:
-    - {fileID: 8300000, guid: dec8f65d16916394f8124010988f6dcf, type: 3}
-    - {fileID: 8300000, guid: 638c68ada10afaf48af2058fdba949b3, type: 3}
-    - {fileID: 8300000, guid: 010705ac8af8dc847bedbc55b01c88bb, type: 3}
-    - {fileID: 8300000, guid: 5f798a7a2fe121048a3ac38663c882c2, type: 3}
+    - {fileID: 8300000, guid: ae866f0f96a82504686cd1062e637ab6, type: 3}
+    - {fileID: 8300000, guid: a21d305a48f65194ca77fe97b0c3ba0f, type: 3}
+    - {fileID: 8300000, guid: 24fd24dcfa397e94baaec80c7058fa73, type: 3}
+    - {fileID: 8300000, guid: db6c86c52fd7c7b4886cad1d2c57adf6, type: 3}
+    - {fileID: 8300000, guid: 59e10588f1d56bd48a67b8f1aa35c405, type: 3}
+    - {fileID: 8300000, guid: e97d0c684587f0941bd9ca0f20c231df, type: 3}
+    - {fileID: 8300000, guid: a7bd89726d9f2ce47a0425f7b9f50416, type: 3}
+    - {fileID: 8300000, guid: f59ac5d796c09a044870563df4a50f4a, type: 3}
+    - {fileID: 8300000, guid: 7ec366ba9c3fbfe448b173e2aae25434, type: 3}
+    - {fileID: 8300000, guid: 53a48f5751ebf974dbebcbb91c54c95e, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: snow
     footstepSounds:
-    - {fileID: 8300000, guid: 5b6ed48cd10e07943a642f1093738cf1, type: 3}
-    - {fileID: 8300000, guid: 4f6b990eb54d0d345a3cf3b6cab98c5e, type: 3}
-    - {fileID: 8300000, guid: 79b5705b8e5e7b64ca0345e8c314a2a2, type: 3}
-    - {fileID: 8300000, guid: b6abf153233bad9438fc0ea1281f84a2, type: 3}
+    - {fileID: 8300000, guid: 49d3c199ba68d67468a8fb9791ee643d, type: 3}
+    - {fileID: 8300000, guid: 6da342d634317834ca2d5395bb35ba4b, type: 3}
+    - {fileID: 8300000, guid: d6f05d163d7987243b75b25f19298c15, type: 3}
+    - {fileID: 8300000, guid: 37e836211e1cc174cb1a5e44d9363ee9, type: 3}
+    - {fileID: 8300000, guid: b6c99c2585c1eea49b706b5482ff0e67, type: 3}
+    - {fileID: 8300000, guid: 9809c66d1ba040d4884a0c1b575ae1f8, type: 3}
+    - {fileID: 8300000, guid: 186087e90f030e5478ae1936b2d40143, type: 3}
+    - {fileID: 8300000, guid: 1f2208a28046c5a4ebfe720297335ea1, type: 3}
+    - {fileID: 8300000, guid: 80746bb9b150c1a44b1f554e956962ce, type: 3}
+    - {fileID: 8300000, guid: e220a3c946937244eac64caedaea6f58, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: swamp
     footstepSounds:
-    - {fileID: 8300000, guid: c8b474b8e2275b64d86ed135ae85844e, type: 3}
-    - {fileID: 8300000, guid: 5dfc2e78b9351124d99656fe223520d2, type: 3}
-    - {fileID: 8300000, guid: 74941d9445618134baf186536a4f8f88, type: 3}
-    - {fileID: 8300000, guid: 4ee7f49ea1d99ce4b9cff7aecdb3f323, type: 3}
+    - {fileID: 8300000, guid: 68b65e515ad51f04e95e199c4e59e45d, type: 3}
+    - {fileID: 8300000, guid: 32c95c5552cb2df459e789a793316cd7, type: 3}
+    - {fileID: 8300000, guid: 91ff025a78d6ee544a02678ed8253baf, type: 3}
+    - {fileID: 8300000, guid: eab9fba9002b60f48815229edd94e6e6, type: 3}
+    - {fileID: 8300000, guid: 7ae51f14a67de5c4e882925a8747599e, type: 3}
+    - {fileID: 8300000, guid: ec0bb6304506d184e887bff0cbccf6c6, type: 3}
+    - {fileID: 8300000, guid: a01e2031ec306764d9e73e7444cedffd, type: 3}
+    - {fileID: 8300000, guid: 5bee09ce8a2eb354697cfbb42269ad93, type: 3}
+    - {fileID: 8300000, guid: dd9624fc032c67148b5463e2c0a2527b, type: 3}
+    - {fileID: 8300000, guid: 96a3d5ece26b7574eb61d3a4e22a7439, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   - surfaceType: water
     footstepSounds:
-    - {fileID: 8300000, guid: 4be0c84a0581dda468d3a0c607cc7827, type: 3}
-    - {fileID: 8300000, guid: c0d08ad50e3b9f0489a1fbe219f1c716, type: 3}
-    - {fileID: 8300000, guid: e955d6541512aaa4e9140d87a84ba236, type: 3}
-    - {fileID: 8300000, guid: d55889d81c3f40048883f8084a5feea5, type: 3}
+    - {fileID: 8300000, guid: 9abe08e4659198443a942138bec9c293, type: 3}
+    - {fileID: 8300000, guid: fbc52574c8a74334dab0f81e25f9de15, type: 3}
+    - {fileID: 8300000, guid: a05d6e579df25a748b1a43081f9f1bfb, type: 3}
+    - {fileID: 8300000, guid: 8a4c7cd53a2f4fb4e86d243531eb3f8e, type: 3}
+    - {fileID: 8300000, guid: bd64917befa605c42b4012b499463948, type: 3}
+    - {fileID: 8300000, guid: 25f02a6724ccd524d9404b27e24cbaae, type: 3}
+    - {fileID: 8300000, guid: 80d116cc4b6940a4887398065a322022, type: 3}
+    - {fileID: 8300000, guid: 960683525eb6f8d40a8104682dd61139, type: 3}
+    - {fileID: 8300000, guid: 70f5cd066b162da48b6e73272aedcd57, type: 3}
+    - {fileID: 8300000, guid: 887a9fb321c147b408c1a6c6f25c1edd, type: 3}
     baseVolume: 1
+    pitchModifer: 0.05
   movementProfile:
     jumpSounds:
     - {fileID: 8300000, guid: c5142069a366c664e87face84b3eea65, type: 3}
@@ -171397,9 +171442,7 @@ MonoBehaviour:
     customAudioSource: {fileID: 0}
     interactionSounds: []
     igniteSounds:
-    - {fileID: 8300000, guid: f04a5eaab0e642b4e8fddd83fa51808d, type: 3}
-    - {fileID: 8300000, guid: 215bdf48ef33b574e810054a6448d26e, type: 3}
-    - {fileID: 8300000, guid: dd9461d035ff229419d0cbef9e343497, type: 3}
+    - {fileID: 8300000, guid: 1d9288ca1127bed4796c10cba43c6ba9, type: 3}
     fireLoop: {fileID: 8300000, guid: 54f80ae1e28032948bd0bedd05896f2a, type: 3}
     fireLoopStartDelay: 0.3
     leverSound: {fileID: 0}
@@ -171416,9 +171459,7 @@ MonoBehaviour:
     customAudioSource: {fileID: 0}
     interactionSounds: []
     igniteSounds:
-    - {fileID: 8300000, guid: f04a5eaab0e642b4e8fddd83fa51808d, type: 3}
-    - {fileID: 8300000, guid: 215bdf48ef33b574e810054a6448d26e, type: 3}
-    - {fileID: 8300000, guid: dd9461d035ff229419d0cbef9e343497, type: 3}
+    - {fileID: 8300000, guid: 1d9288ca1127bed4796c10cba43c6ba9, type: 3}
     fireLoop: {fileID: 8300000, guid: 3f03b463e6b82a843a1c4f7fd89fd176, type: 3}
     fireLoopStartDelay: 0.3
     leverSound: {fileID: 0}
@@ -171431,7 +171472,7 @@ MonoBehaviour:
     rightSpeakerSource: {fileID: 0}
   - interactionName: Cave Door
     interactionType: 0
-    interactionSound: {fileID: 0}
+    interactionSound: {fileID: 8300000, guid: 21e363a69a4d5774eb6f044f07c8ceb2, type: 3}
     customAudioSource: {fileID: 883161306}
     interactionSounds: []
     igniteSounds: []
@@ -171492,8 +171533,8 @@ MonoBehaviour:
     sparksSound: {fileID: 0}
     mixerGroupOutput: {fileID: 3486777540803879219, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     isLit: 0
-    leftSpeakerAudio: {fileID: 0}
-    rightSpeakerAudio: {fileID: 0}
+    leftSpeakerAudio: {fileID: 8300000, guid: fe7ddd03f94b8d740a466f4c79a8ab57, type: 3}
+    rightSpeakerAudio: {fileID: 8300000, guid: c2af18e9d611ed84e95d9c58c48e9ad3, type: 3}
     leftSpeakerSource: {fileID: 55218316}
     rightSpeakerSource: {fileID: 1811146560}
 --- !u!114 &2049660019
