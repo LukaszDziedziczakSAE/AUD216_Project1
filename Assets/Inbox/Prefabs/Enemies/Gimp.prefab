@@ -3066,7 +3066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Gimp
   nameText: {fileID: 1481190360928624960}
-  maxHealth: 100
+  maxHealth: 40
   worldSpaceCanvas: {fileID: 3982048808397970596}
   healthSlider: {fileID: 4301376860032454787}
   healthText: {fileID: 7730417599184003571}

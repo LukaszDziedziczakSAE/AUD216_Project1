@@ -4452,7 +4452,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: c8b747ec91344436b9ff507abff5ae6d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -23894,7 +23894,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -101094,7 +101094,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -155067,7 +155067,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -170935,11 +170935,15 @@ MonoBehaviour:
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 0}
+      - {fileID: 8300000, guid: ba9d0d3ff273ea142b0c3e12450d083f, type: 3}
+      - {fileID: 8300000, guid: 7367b01602ae49744987aa88d4cb43bc, type: 3}
+      - {fileID: 8300000, guid: 729091428d4ce9d4b97310b8575bc67f, type: 3}
+      - {fileID: 8300000, guid: 328d3c7e048fd9b44a44041d9e962461, type: 3}
+      - {fileID: 8300000, guid: cfad33a42d5344e48961349d42e1c7f5, type: 3}
     attackSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 0f4d86977da94924ba4f50a624eddd54, type: 3}
     deathSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 08e7d22877085af4fad033a9fa0f3e01, type: 3}
     enemyPrefab: {fileID: 6545734778344210096, guid: fbc427772cd59492e8073597f42d2c4d, type: 3}
     minVocalDelay: 1.5
     maxVocalDelay: 4
@@ -170955,10 +170959,15 @@ MonoBehaviour:
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 0}
+      - {fileID: 8300000, guid: ba9d0d3ff273ea142b0c3e12450d083f, type: 3}
+      - {fileID: 8300000, guid: 7367b01602ae49744987aa88d4cb43bc, type: 3}
+      - {fileID: 8300000, guid: 729091428d4ce9d4b97310b8575bc67f, type: 3}
+      - {fileID: 8300000, guid: 328d3c7e048fd9b44a44041d9e962461, type: 3}
+      - {fileID: 8300000, guid: cfad33a42d5344e48961349d42e1c7f5, type: 3}
     attackSounds:
-    - {fileID: 0}
-    deathSounds: []
+    - {fileID: 8300000, guid: 0f4d86977da94924ba4f50a624eddd54, type: 3}
+    deathSounds:
+    - {fileID: 8300000, guid: 08e7d22877085af4fad033a9fa0f3e01, type: 3}
     enemyPrefab: {fileID: 2434134646893750457, guid: 991efe87d9fee4c8cba5d92689b9472d, type: 3}
     minVocalDelay: 1.5
     maxVocalDelay: 4
@@ -170974,11 +170983,15 @@ MonoBehaviour:
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 0}
+      - {fileID: 8300000, guid: ba9d0d3ff273ea142b0c3e12450d083f, type: 3}
+      - {fileID: 8300000, guid: 7367b01602ae49744987aa88d4cb43bc, type: 3}
+      - {fileID: 8300000, guid: 729091428d4ce9d4b97310b8575bc67f, type: 3}
+      - {fileID: 8300000, guid: 328d3c7e048fd9b44a44041d9e962461, type: 3}
+      - {fileID: 8300000, guid: cfad33a42d5344e48961349d42e1c7f5, type: 3}
     attackSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 0f4d86977da94924ba4f50a624eddd54, type: 3}
     deathSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 08e7d22877085af4fad033a9fa0f3e01, type: 3}
     enemyPrefab: {fileID: 1988708021560269345, guid: 197c68e293ff547b0a26b9d291409c0b, type: 3}
     minVocalDelay: 1.5
     maxVocalDelay: 4
@@ -170994,11 +171007,15 @@ MonoBehaviour:
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 0}
+      - {fileID: 8300000, guid: ba9d0d3ff273ea142b0c3e12450d083f, type: 3}
+      - {fileID: 8300000, guid: 7367b01602ae49744987aa88d4cb43bc, type: 3}
+      - {fileID: 8300000, guid: 729091428d4ce9d4b97310b8575bc67f, type: 3}
+      - {fileID: 8300000, guid: 328d3c7e048fd9b44a44041d9e962461, type: 3}
+      - {fileID: 8300000, guid: cfad33a42d5344e48961349d42e1c7f5, type: 3}
     attackSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 0f4d86977da94924ba4f50a624eddd54, type: 3}
     deathSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 08e7d22877085af4fad033a9fa0f3e01, type: 3}
     enemyPrefab: {fileID: 5515201497509237744, guid: 5690904561eb04b7e81580f0c2392916, type: 3}
     minVocalDelay: 1.5
     maxVocalDelay: 4
@@ -171057,7 +171074,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: b6d2aa435f8f2074aaa23a5fb776024b, type: 3}
     - {fileID: 8300000, guid: c15c8c769bae3dd44911d979cd18b91c, type: 3}
     - {fileID: 8300000, guid: 491ac468e6cebb74987c7eaf7470361a, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: grass
     footstepSounds:
@@ -171071,7 +171088,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: ffef9be67409f1048b45e04157eb6192, type: 3}
     - {fileID: 8300000, guid: 779c8bed755b31c418c98f46d1132927, type: 3}
     - {fileID: 8300000, guid: 1102afc9874bd284a8b32ff8201dc59e, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: sand
     footstepSounds:
@@ -171081,7 +171098,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 552cbd8d46220f84baf324b893b9b365, type: 3}
     - {fileID: 8300000, guid: 89d4e935ff922eb439876f3ee8cb6ccd, type: 3}
     - {fileID: 8300000, guid: 5888562e385c08642b6add7a64b38048, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: rock
     footstepSounds:
@@ -171095,7 +171112,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: f59ac5d796c09a044870563df4a50f4a, type: 3}
     - {fileID: 8300000, guid: 7ec366ba9c3fbfe448b173e2aae25434, type: 3}
     - {fileID: 8300000, guid: 53a48f5751ebf974dbebcbb91c54c95e, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: snow
     footstepSounds:
@@ -171109,7 +171126,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 1f2208a28046c5a4ebfe720297335ea1, type: 3}
     - {fileID: 8300000, guid: 80746bb9b150c1a44b1f554e956962ce, type: 3}
     - {fileID: 8300000, guid: e220a3c946937244eac64caedaea6f58, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: swamp
     footstepSounds:
@@ -171123,7 +171140,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 5bee09ce8a2eb354697cfbb42269ad93, type: 3}
     - {fileID: 8300000, guid: dd9624fc032c67148b5463e2c0a2527b, type: 3}
     - {fileID: 8300000, guid: 96a3d5ece26b7574eb61d3a4e22a7439, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   - surfaceType: water
     footstepSounds:
@@ -171137,7 +171154,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 960683525eb6f8d40a8104682dd61139, type: 3}
     - {fileID: 8300000, guid: 70f5cd066b162da48b6e73272aedcd57, type: 3}
     - {fileID: 8300000, guid: 887a9fb321c147b408c1a6c6f25c1edd, type: 3}
-    baseVolume: 1
+    baseVolume: 0.8
     pitchModifer: 0.05
   movementProfile:
     jumpSounds:
@@ -171163,13 +171180,18 @@ MonoBehaviour:
   m_WeaponProfiles:
   - weaponName: SMG
     shootSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: abaca001ab80bcc4380be520280dca89, type: 3}
+    - {fileID: 8300000, guid: f7e8a7e4f8dabe84d98abe5a8b24c899, type: 3}
+    - {fileID: 8300000, guid: 5f09e65fe77d67f48bd20f8cdb58403b, type: 3}
+    - {fileID: 8300000, guid: 210de292666a4044b971bde7e50b6746, type: 3}
+    - {fileID: 8300000, guid: e7db39058866f184480fbbd4b9c2161c, type: 3}
+    - {fileID: 8300000, guid: de976bf4619f5a74da10cc26b47a1c68, type: 3}
     shootVolume: 0.554
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 0}
-    lowerWeaponSound: {fileID: 0}
-    toggleSoundVolume: 1
+    raiseWeaponSound: {fileID: 8300000, guid: 7bc3ba1eee64701429a2b8ca43a4f93c, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: 3eda102513661de4cab7f55a55e7bd3b, type: 3}
+    toggleSoundVolume: 0.7
     togglePitchVariation: 0
     reloadStartSound: {fileID: 0}
     reloadEndSound: {fileID: 0}
@@ -171178,13 +171200,15 @@ MonoBehaviour:
     weaponType: 0
   - weaponName: Revolver
     shootSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 7d6a2a04dd71e7a42bed2a84b6f20be1, type: 3}
+    - {fileID: 8300000, guid: 3cdfaaf8fcaba32408a64b5076b4e62d, type: 3}
+    - {fileID: 8300000, guid: ec687edffca349240b13325e1f016876, type: 3}
     shootVolume: 0.805
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 0}
-    lowerWeaponSound: {fileID: 0}
-    toggleSoundVolume: 1
+    raiseWeaponSound: {fileID: 8300000, guid: 69014c9a18d2d3340927b5dea4bc3e5a, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: e2c15619c1cc4f44b97e33b77ddb2858, type: 3}
+    toggleSoundVolume: 0.8
     togglePitchVariation: 0
     reloadStartSound: {fileID: 0}
     reloadEndSound: {fileID: 0}
@@ -171193,13 +171217,24 @@ MonoBehaviour:
     weaponType: 0
   - weaponName: Axe
     shootSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: cfe3509e63b58dc4d9f2b28472fad7d8, type: 3}
+    - {fileID: 8300000, guid: 875dc92ad2e1fea48856f17a76951480, type: 3}
+    - {fileID: 8300000, guid: ab555b4f18d634f488642d294863e584, type: 3}
+    - {fileID: 8300000, guid: 7a987824b42554841a40a95080a76d8e, type: 3}
+    - {fileID: 8300000, guid: 30908f01ee0afda45a19b76603e53a49, type: 3}
+    - {fileID: 8300000, guid: d1dd541ef4bfb5846b837273c6c80d20, type: 3}
+    - {fileID: 8300000, guid: 8880452189b9f1147983b03e694cc113, type: 3}
+    - {fileID: 8300000, guid: a96249fd4117891458b25ddf09de63ea, type: 3}
+    - {fileID: 8300000, guid: 2ee388dcdfab2d7458d614a3b572e4e5, type: 3}
+    - {fileID: 8300000, guid: eaf4c8bc9c0c44f47b4d6b7cdebd0850, type: 3}
+    - {fileID: 8300000, guid: 2817fe1608564814e8f138f230cd3302, type: 3}
+    - {fileID: 8300000, guid: a6f0b9ce747738f4cb83be28221be36d, type: 3}
     shootVolume: 1
-    minPitchVariation: 0.95
-    maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 0}
-    lowerWeaponSound: {fileID: 0}
-    toggleSoundVolume: 1
+    minPitchVariation: 0.99
+    maxPitchVariation: 1.01
+    raiseWeaponSound: {fileID: 8300000, guid: ae90136f22f7077499b8f0362a90c71a, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: f81a5f0f76465ae4d86c0c08b1c43496, type: 3}
+    toggleSoundVolume: 0.4
     togglePitchVariation: 0
     reloadStartSound: {fileID: 0}
     reloadEndSound: {fileID: 0}
@@ -171223,43 +171258,43 @@ MonoBehaviour:
   menuAudioSetup:
     audioSource: {fileID: 1351091343}
     mixerGroup: {fileID: 2888847186314242983, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  menuToggleOn: {fileID: 0}
-  menuToggleOff: {fileID: 0}
-  menuVolume: 1
+  menuToggleOn: {fileID: 8300000, guid: 509c28f01bef2214b9f36f0efaf2cf54, type: 3}
+  menuToggleOff: {fileID: 8300000, guid: 7f166395b3542a54ca85348b0f834892, type: 3}
+  menuVolume: 0.9
   buttonAudioSetup:
     audioSource: {fileID: 572637370}
     mixerGroup: {fileID: -6333195497276841129, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  buttonToggleOn: {fileID: 0}
-  buttonToggleOff: {fileID: 0}
+  buttonToggleOn: {fileID: 8300000, guid: a5b898e1f10570a4bba4371f187b7b25, type: 3}
+  buttonToggleOff: {fileID: 8300000, guid: c326a73eecae86a4495ba9f6e8429139, type: 3}
   buttonVolume: 1
   notificationAudioSetup:
     audioSource: {fileID: 789795370}
     mixerGroup: {fileID: 1473668197503799466, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  objectiveCompleted: {fileID: 0}
-  allEnemiesCleared: {fileID: 0}
-  notificationVolume: 1
+  objectiveCompleted: {fileID: 8300000, guid: 899351c492d14584282827c23d402bfb, type: 3}
+  allEnemiesCleared: {fileID: 8300000, guid: cac07bd3cda52bd4eb41f220dad78389, type: 3}
+  notificationVolume: 0.9
   pickupAudioSetup:
     audioSource: {fileID: 1994280381}
     mixerGroup: {fileID: 6059940798172231644, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  itemPickup: {fileID: 0}
+  itemPickup: {fileID: 8300000, guid: 72c26cf1df7271f44a443106f86cff75, type: 3}
   pickupVolume: 1
   consumptionAudioSetup:
     audioSource: {fileID: 1417993193}
     mixerGroup: {fileID: -5324985431409406173, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  fishEaten: {fileID: 0}
-  foodCanEaten: {fileID: 0}
-  medicineUsed: {fileID: 0}
-  consumptionVolume: 1
+  fishEaten: {fileID: 8300000, guid: 7a1574e016531e043ac770b3a6117706, type: 3}
+  foodCanEaten: {fileID: 8300000, guid: 9373725d7aa3e89449a3197fe5e5bcb8, type: 3}
+  medicineUsed: {fileID: 8300000, guid: 304a853da2af1a64f99763222b3c7368, type: 3}
+  consumptionVolume: 0.7
   dayNightAudioSetup:
     audioSource: {fileID: 1727883339}
     mixerGroup: {fileID: -3681435545590639334, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  dayNumberSound: {fileID: 0}
-  dayAnnouncementVolume: 1
+  dayNumberSound: {fileID: 8300000, guid: a4d5c8f42fe326445b22005fcfaf0426, type: 3}
+  dayAnnouncementVolume: 0.8
   levelUpAudioSetup:
     audioSource: {fileID: 200953308}
     mixerGroup: {fileID: -4865227535865389001, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
-  levelUpSound: {fileID: 0}
-  levelUpVolume: 1
+  levelUpSound: {fileID: 8300000, guid: 200bfc4e653fea44c8f90df3e0539eee, type: 3}
+  levelUpVolume: 0.9
 --- !u!114 &2049660015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171329,33 +171364,33 @@ MonoBehaviour:
   ambienceTracks:
   - trackName: Outside
     state: 0
-    ambienceClip: {fileID: 0}
-    volume: 1
+    ambienceClip: {fileID: 8300000, guid: c13fc596f8c366f4282209c12c6ab5c1, type: 3}
+    volume: 0.9
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Swamp
     state: 1
-    ambienceClip: {fileID: 0}
-    volume: 1
+    ambienceClip: {fileID: 8300000, guid: a5df9b853739a70429df661e557c78b3, type: 3}
+    volume: 0.6
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Campfire
     state: 3
-    ambienceClip: {fileID: 0}
-    volume: 1
+    ambienceClip: {fileID: 8300000, guid: a26cffc6b5807214a961e44918f2cd8a, type: 3}
+    volume: 0.7
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Cave
     state: 2
-    ambienceClip: {fileID: 0}
-    volume: 1
+    ambienceClip: {fileID: 8300000, guid: e05ee92d5f5c57e4f87e6f1b0658a8f0, type: 3}
+    volume: 0.8
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
-  crossFadeDuration: 2
+  crossFadeDuration: 1.4
   startingState: 0
 --- !u!114 &2049660017
 MonoBehaviour:
@@ -171416,7 +171451,14 @@ MonoBehaviour:
   bloodEffect: {fileID: 198615267133080452, guid: ed67c2cb8e3a7fb418c6fbb1b001dce2, type: 3}
   rockEffect: {fileID: 198029139897396496, guid: 9fe1ddc0da27cb44ebeeb8c2befa68bd, type: 3}
   enemyImpactSounds:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 3b573d18168edeb4a9ee5a63acdafd32, type: 3}
+  - {fileID: 8300000, guid: db0826bb26083bb4dbba19717450d554, type: 3}
+  - {fileID: 8300000, guid: 0818ac343c7f4804ebc3859445a3af06, type: 3}
+  - {fileID: 8300000, guid: e5795c1f83d884f4d8cd673580543393, type: 3}
+  - {fileID: 8300000, guid: a0cf0800509af0d4991fa5f4044779a2, type: 3}
+  - {fileID: 8300000, guid: 080167149ea519f448571a385c4767a7, type: 3}
+  - {fileID: 8300000, guid: 5d50ab283776f00478b209feca721905, type: 3}
+  - {fileID: 8300000, guid: 5bb933cd0841a084390d20a9b9ece6a3, type: 3}
   enemyImpactVolume: 1
   enemyMinPitch: 0.9
   enemyMaxPitch: 1.1
@@ -171494,8 +171536,8 @@ MonoBehaviour:
     igniteSounds: []
     fireLoop: {fileID: 0}
     fireLoopStartDelay: 1
-    leverSound: {fileID: 0}
-    sparksSound: {fileID: 0}
+    leverSound: {fileID: 8300000, guid: 54174558a07a5ff4788e25a1d055ae82, type: 3}
+    sparksSound: {fileID: 8300000, guid: 9ec428541d98a5144af8629758cd313d, type: 3}
     mixerGroupOutput: {fileID: -402529107390267425, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     isLit: 0
     leftSpeakerAudio: {fileID: 0}
@@ -171504,7 +171546,7 @@ MonoBehaviour:
     rightSpeakerSource: {fileID: 0}
   - interactionName: Light Switch
     interactionType: 0
-    interactionSound: {fileID: 0}
+    interactionSound: {fileID: 8300000, guid: 5929ba1b9d82b9a42a4e7e741fe67013, type: 3}
     customAudioSource: {fileID: 1366000744}
     interactionSounds: []
     igniteSounds: []
@@ -171550,7 +171592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   riverProfiles:
-  - riverAudioClip: {fileID: 0}
+  - riverAudioClip: {fileID: 8300000, guid: bbd7edbb2bb282440b5a4f267846b12a, type: 3}
     audioSource: {fileID: 1270426883}
     mixerGroup: {fileID: -2838175906123992593, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     riverPath: {fileID: 1649503141}
@@ -171566,7 +171608,7 @@ MonoBehaviour:
     currentSegmentIndex: 0
     currentSegment: 0
     segmentProgress: 0
-  - riverAudioClip: {fileID: 0}
+  - riverAudioClip: {fileID: 8300000, guid: bbd7edbb2bb282440b5a4f267846b12a, type: 3}
     audioSource: {fileID: 173789222}
     mixerGroup: {fileID: -2838175906123992593, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     riverPath: {fileID: 1574762471}

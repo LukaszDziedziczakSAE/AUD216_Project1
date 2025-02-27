@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Demon
   nameText: {fileID: 3583331532258179359}
-  maxHealth: 100
+  maxHealth: 40
   worldSpaceCanvas: {fileID: 6762779808279570500}
   healthSlider: {fileID: 3501013168046243091}
   healthText: {fileID: 1622127424556965600}

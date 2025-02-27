@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Evil God
   nameText: {fileID: 0}
-  maxHealth: 100
+  maxHealth: 40
   worldSpaceCanvas: {fileID: 0}
   healthSlider: {fileID: 0}
   healthText: {fileID: 0}

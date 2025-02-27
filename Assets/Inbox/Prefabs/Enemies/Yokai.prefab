@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Yokai
   nameText: {fileID: 437490483478834976}
-  maxHealth: 100
+  maxHealth: 40
   worldSpaceCanvas: {fileID: 9146132475671967014}
   healthSlider: {fileID: 3594041398009770575}
   healthText: {fileID: 4134144189178285758}

@@ -2274,7 +2274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Ghoul
   nameText: {fileID: 7130959573460546828}
-  maxHealth: 150
+  maxHealth: 60
   worldSpaceCanvas: {fileID: 413843346105583648}
   healthSlider: {fileID: 3664675733095890979}
   healthText: {fileID: 5406442219376227460}
