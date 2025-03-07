@@ -179475,7 +179475,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 960683525eb6f8d40a8104682dd61139, type: 3}
     - {fileID: 8300000, guid: 70f5cd066b162da48b6e73272aedcd57, type: 3}
     - {fileID: 8300000, guid: 887a9fb321c147b408c1a6c6f25c1edd, type: 3}
-    baseVolume: 0.8
+    baseVolume: 0.6
     pitchModifer: 0.05
   movementProfile:
     jumpSounds:
